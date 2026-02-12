@@ -1,49 +1,159 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>PT Hana Store One</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PT Hana Store One</title>
 
-    <!-- SEO -->
-    <meta name="description" content="PT Hana Store One - Perusahaan Online Terpercaya.">
-    <meta name="keywords" content="Hana Store, Digital, Produk Online, Jasa Digital">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+    color: #1e293b;
+}
+
+header {
+    background: linear-gradient(135deg, #0f172a, #7c3aed);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #7c3aed;
+}
+
+.about {
+    background: #eef2ff;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #7c3aed, #06b6d4);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.contact a:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+</style>
 </head>
+
 <body>
 
 <header>
     <h1>PT Hana Store One</h1>
-    <p>Perusahaan Online Terpercaya</p>
+    <p>Membangun Identitas Digital & Layanan Online Terpercaya</p>
 </header>
 
-<section>
-    <h2>Tentang Kami</h2>
-    <p>
-        PT Hana Store One adalah perusahaan yang bergerak di bidang
-        penjualan produk online dan layanan digital dengan komitmen
-        memberikan pelayanan terbaik untuk pelanggan.
-    </p>
-</section>
-
-<section>
+<section class="section">
     <h2>Layanan Kami</h2>
-    <ul>
-        <li>Penjualan Produk Online</li>
-        <li>Distribusi & Reseller</li>
-        <li>Layanan Digital</li>
-    </ul>
+    <div class="cards">
+        <div class="card">
+            <h3>Website & Domain</h3>
+            <p>Pembuatan website profesional untuk bisnis dan personal branding.</p>
+        </div>
+        <div class="card">
+            <h3>Email Bisnis</h3>
+            <p>Email custom domain untuk meningkatkan kepercayaan bisnis Anda.</p>
+        </div>
+        <div class="card">
+            <h3>Branding Sosial Media</h3>
+            <p>Membantu membangun identitas digital melalui platform sosial media.</p>
+        </div>
+        <div class="card">
+            <h3>Program Transaksi Aman</h3>
+            <p>Layanan terbatas untuk transaksi dalam negeri dengan sistem penitipan dana sementara.</p>
+        </div>
+    </div>
 </section>
 
-<section>
+<section class="section">
+    <div class="about">
+        <h2>Tentang Kami</h2>
+        <p>
+        PT Hana Store One adalah perusahaan yang bergerak di bidang layanan digital dan pengembangan identitas online dengan komitmen profesionalisme, transparansi, dan keamanan.
+        </p>
+    </div>
+</section>
+
+<section class="section contact">
     <h2>Hubungi Kami</h2>
-    <p>📱 WhatsApp: 082221653103</p>
-    <p>📧 Email: admin@cacing.my.id</p>
+    <p>Siap membantu kebutuhan digital Anda.</p>
+    <a href="https://wa.me/62822XXXXXXX">Hubungi via WhatsApp</a>
 </section>
 
 <footer>
-    <p>&copy; 2026 PT Hana Store One. All Rights Reserved.</p>
+    © 2026 PT Hana Store One. All Rights Reserved.
 </footer>
 
 </body>
