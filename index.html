@@ -9,7 +9,7 @@
 <body class="landing">
 
 <nav class="navbar">
-    <div class="logo">HANA STORE ONE</div>
+    <img src="logo.png" class="logo-img">
     <div class="menu">
         <a href="home.html">HOME</a>
         <a href="about.html">ABOUT</a>
@@ -17,16 +17,27 @@
 </nav>
 
 <section class="hero">
-    <h2>CREATIVE DIRECTOR</h2>
+    <h3>CREATIVE DIRECTOR</h3>
     <h1>Encouraging Business Progress</h1>
 </section>
 
 <div class="floating-icons">
-    <a href="https://api.whatsapp.com/send/?phone=6282221653103&text&type=phone_number&app_absent=0" target="_blank">WA</a>
-    <a href="mailto:admin@cacing.my.id">EM</a>
-    <a href="https://instagram.com/panther.1988317" target="_blank">IG</a>
-    <a href="tel:+6282221653103">TEL</a>
+    <a href="https://api.whatsapp.com/send/?phone=6282221653103&text&type=phone_number&app_absent=0" target="_blank">🟢</a>
+    <a href="mailto:admin@cacing.my.id">✉</a>
+    <a href="https://instagram.com/panther.1988317" target="_blank">📷</a>
+    <div class="phone-box" onclick="togglePhone()">📞</div>
 </div>
+
+<div id="phoneNumber" class="phone-popup">
+    +62 822 2165 3103
+</div>
+
+<script>
+function togglePhone() {
+    var x = document.getElementById("phoneNumber");
+    x.classList.toggle("show");
+}
+</script>
 
 </body>
 </html>
