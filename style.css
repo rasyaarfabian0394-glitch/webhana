@@ -1,149 +1,55 @@
-body {
+* {
     margin: 0;
-    font-family: 'Georgia', serif;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-/* ================= NAVBAR ================= */
-.navbar {
+body {
+    background: #f4f4f4;
+}
+
+nav {
+    background: #333;
+    color: white;
     display: flex;
     justify-content: space-between;
+    padding: 15px 40px;
     align-items: center;
-    padding: 20px 50px;
-    position: fixed;
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 10;
-    background: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(5px);
 }
 
-.logo-img {
-    height: 70px;
+nav ul {
+    list-style: none;
+    display: flex;
 }
 
-.menu a {
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
-    margin-left: 25px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: 0.3s;
-}
-
-.menu a:hover {
-    color: gold;
-}
-
-/* ================= HERO ================= */
-.landing {
-    background: url('hero.jpg') center/cover no-repeat;
-    height: 100vh;
-    color: white;
 }
 
 .hero {
     text-align: center;
-    padding-top: 220px;
+    padding: 100px 20px;
 }
 
 .hero h1 {
-    font-size: 70px;
-    margin: 0;
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
-.hero h3 {
-    letter-spacing: 3px;
-    font-weight: normal;
+.hero p {
+    margin-bottom: 30px;
 }
 
-/* ================= FLOATING ICON ================= */
-.floating-icons {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    display: flex;
-    gap: 15px;
-    z-index: 20;
-}
-
-.floating-icons a,
-.phone-box {
-    background: rgba(0,0,0,0.8);
+.btn {
+    background: #007bff;
     color: white;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 20px;
-    transition: 0.3s;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
-
-.floating-icons a:hover,
-.phone-box:hover {
-    background: gold;
-    color: black;
-    transform: translateY(-5px);
-}
-
-/* ================= PHONE POPUP ================= */
-.phone-popup {
-    position: fixed;
-    bottom: 95px;
-    right: 30px;
-    background: black;
-    color: white;
-    padding: 12px 20px;
-    border-radius: 8px;
-    display: none;
-    opacity: 0;
-    transform: translateY(10px);
-    transition: 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
-}
-
-.phone-popup.show {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* ================= WHITE PAGE ================= */
-.white-page {
-    background: white;
-    padding-top: 120px;
-}
-
-.white-page .menu a {
-    color: black;
-}
-
-.content {
-    padding: 50px;
-    text-align: center;
-}
-
-.cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.card {
-    background: #f2f2f2;
-    padding: 30px;
-    width: 250px;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-}
-
