@@ -3,7 +3,7 @@ body {
     font-family: 'Georgia', serif;
 }
 
-/* NAVBAR */
+/* ================= NAVBAR ================= */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -13,6 +13,8 @@ body {
     width: 100%;
     box-sizing: border-box;
     z-index: 10;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
 }
 
 .logo-img {
@@ -25,13 +27,14 @@ body {
     margin-left: 25px;
     font-weight: bold;
     letter-spacing: 1px;
+    transition: 0.3s;
 }
 
 .menu a:hover {
     color: gold;
 }
 
-/* HERO */
+/* ================= HERO ================= */
 .landing {
     background: url('hero.jpg') center/cover no-repeat;
     height: 100vh;
@@ -46,58 +49,70 @@ body {
 .hero h1 {
     font-size: 70px;
     margin: 0;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
 }
 
 .hero h3 {
     letter-spacing: 3px;
+    font-weight: normal;
 }
 
-/* FLOATING ICON */
+/* ================= FLOATING ICON ================= */
 .floating-icons {
     position: fixed;
     bottom: 30px;
     right: 30px;
     display: flex;
     gap: 15px;
+    z-index: 20;
 }
 
 .floating-icons a,
 .phone-box {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.8);
     color: white;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     cursor: pointer;
     font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
 
 .floating-icons a:hover,
 .phone-box:hover {
     background: gold;
     color: black;
+    transform: translateY(-5px);
 }
 
-/* PHONE POPUP */
+/* ================= PHONE POPUP ================= */
 .phone-popup {
     position: fixed;
-    bottom: 90px;
+    bottom: 95px;
     right: 30px;
     background: black;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 8px;
     display: none;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
 
 .phone-popup.show {
     display: block;
+    opacity: 1;
+    transform: translateY(0);
 }
 
-/* WHITE PAGE */
+/* ================= WHITE PAGE ================= */
 .white-page {
     background: white;
     padding-top: 120px;
@@ -124,4 +139,11 @@ body {
     padding: 30px;
     width: 250px;
     border-radius: 10px;
+    transition: 0.3s;
 }
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
