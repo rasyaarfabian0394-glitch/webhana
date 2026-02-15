@@ -53,9 +53,18 @@ nav ul li a i {
 }
 
 .btn {
-    background: #007bff;
+    display: inline-block;
+    background: #007BFF;
     color: white;
-    padding: 10px 20px;
-    text-decoration: none;
+    padding: 12px 25px;
     border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
 }
+
+.btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
