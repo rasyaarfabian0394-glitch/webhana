@@ -17,14 +17,14 @@
 .logo {
     display: flex;
     align-items: center;
-    gap: 30 px;
+    gap: 20 px;
     color: white;
     font-weight: bold;
 }
 
 .logo img {
-    width: 100 px;
-    height: 100 px;
+    width: 90 px;
+    height: 90 px;
     object-fit: contain;
 }
 
