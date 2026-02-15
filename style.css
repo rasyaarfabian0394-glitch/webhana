@@ -68,3 +68,17 @@ nav ul li a i {
     transform: scale(1.05);
 }
 
+.logo {
+    position: relative;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.logo-bg {
+    position: absolute;
+    left: -10px;
+    top: -15px;
+    width: 120px;
+    opacity: 0.15; /* transparansi supaya jadi background */
+    z-index: -1;
+}
