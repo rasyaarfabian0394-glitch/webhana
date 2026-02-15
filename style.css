@@ -76,9 +76,10 @@ nav ul li a i {
 
 .logo-bg {
     position: absolute;
-    left: -10px;
-    top: -15px;
-    width: 30px;
-    opacity: 0.15; /* transparansi supaya jadi background */
+    left: -20px;
+    top: -20px;
+    width: 80px;
+    opacity: 0.08;
     z-index: -1;
 }
+
