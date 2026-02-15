@@ -76,11 +76,13 @@ nav ul li a i {
 
 .logo-bg {
     position: absolute;
-    left: -10px;
-    top: -15px;
-    width: 30px;
-    opacity: 0.15;
+    left: -20px;
+    top: -25px;
+    width: 90px;
+    opacity: 0.12;
+    filter: brightness(0) invert(1);
     z-index: -1;
 }
+
 
 
