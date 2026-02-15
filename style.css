@@ -17,21 +17,21 @@
 .logo {
     display: flex;
     align-items: center;
-    gap: 20 px;
+    gap: 10px;
     color: white;
     font-weight: bold;
 }
 
 .logo img {
-    width: 90 px;
-    height: 90 px;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
 }
 
 .menu a {
     color: white;
     text-decoration: none;
-    margin-left: 20 px;
+    margin-left: 20px;
     font-weight: bold;
 }
 
@@ -42,24 +42,24 @@
 /* HERO */
 .hero {
     text-align: center;
-    padding: 120 px 20 px;
-    background: linear-gradient (135 deg, #f4f4f4, #e6e6e6);
+    padding: 120px 20px;
+    background: linear-gradient (135deg, #f4f4f4, #e6e6e6);
 }
 
 .hero h1 {
-    font-size: 40 px;
-    margin-bottom: 20 px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .hero p {
-    margin-bottom: 30 px;
+    margin-bottom: 30px;
 }
 
 .btn {
     background-color: #0d6efd;
     color: white;
-    padding: 12 px 25 px;
-    border-radius: 6 px;
+    padding: 12px 25px;
+    border-radius: 6px;
     text-decoration: none;
     display: inline-block;
 }
@@ -70,7 +70,7 @@
 
 /* CONTENT */
 .content {
-    padding: 80 px 40 px;
+    padding: 80px 40px;
     text-align: center;
 }
 
