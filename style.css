@@ -76,15 +76,17 @@
 
 .cards {
     display: flex;
-    gap: 20 px;
-    margin-top: 30 px;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+    align-items: center;
 }
 
 .card {
     background: #f4f4f4;
-    padding: 20 px;
-    width: 250 px;
-    border-radius: 8 px;
+    padding: 25px;
+    width: 700px;
+    border-radius: 10px;
+    text-align: left;
 }
+
