@@ -74,15 +74,17 @@ nav ul li a i {
     z-index: 2;
 }
 
-.logo-bg {
-    position: absolute;
-    left: -20px;
-    top: -25px;
-    width: 90px;
-    opacity: 0.12;
-    filter: brightness(0) invert(1);
-    z-index: -1;
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
+.logo-img {
+    width: 40px;
+    height: auto;
+}
+
 
 
 
