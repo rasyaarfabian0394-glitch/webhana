@@ -10,29 +10,22 @@ body {
     background: #f4f4f4;
 }
 
-.navbar {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
-    background-color: #b30000;
+    padding: 15px 50px;
+    background-color: #b30000; /* merah lebih soft */
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
-    color: red;
+    gap: 15px;
+    color: white;
+    font-size: 18px;
     font-weight: bold;
-    font-size: 30px;
 }
-
-.logo img {
-    width: 60px;   
-    height: 60px;
-    object-fit: contain;
-}
-
 
 .home-btn {
     color: white;
