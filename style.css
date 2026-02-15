@@ -78,7 +78,7 @@ nav ul li a i {
     position: absolute;
     left: -10px;
     top: -15px;
-    width: 120px;
+    width: 30px;
     opacity: 0.15; /* transparansi supaya jadi background */
     z-index: -1;
 }
