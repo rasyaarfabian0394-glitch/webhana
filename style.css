@@ -22,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    color: white;
+    color: red;
     font-weight: bold;
     font-size: 30px;
 }
@@ -38,7 +38,7 @@ body {
     color: white;
     font-size: 40px;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.7s;
 }
 
 .home-btn:hover {
