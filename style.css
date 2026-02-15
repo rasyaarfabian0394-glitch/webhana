@@ -90,3 +90,19 @@
     text-align: left;
 }
 
+body {
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.navbar {
+    padding: 25px 60px;
+}
+
+.content {
+    max-width: 1400px;
+    margin: auto;
+}
