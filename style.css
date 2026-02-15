@@ -94,18 +94,5 @@ nav ul li a i {
     height: auto;
 }
 
-.navbar {
-    background: red;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-.home-btn img {
-    width: 25px;
-    cursor: pointer;
-}
-
 
 
