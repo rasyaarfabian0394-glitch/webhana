@@ -31,7 +31,6 @@
     font-size: 20px;
 }
 
-  
 .menu a {
     color: white;
     text-decoration: none;
@@ -46,9 +45,10 @@
 /* HERO */
 .hero {
     text-align: center;
-    padding: 120px 20px;
+    padding: 80px 20px;
     background: linear-gradient(135deg, #f4f4f4, #e6e6e6);
 }
+
 .hero h1 {
     font-size: 40px;
     margin-bottom: 20px;
@@ -88,17 +88,10 @@
 .card {
     background: #f4f4f4;
     padding: 25px;
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     border-radius: 10px;
     text-align: left;
-}
-
-body {
-    font-size: 28px;
-}
-
-h1 {
-    font-size: 72px;
 }
 
 .content {
