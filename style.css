@@ -17,7 +17,7 @@
 .logo {
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: 20px;
     color: white;
     font-weight: bold;
 }
