@@ -14,18 +14,18 @@
     background-color: #b30000;
 }
 
+.logo img {
+    width: 180PX;
+    height: height;
+    object-fit: contain;
+}
+
 .logo {
     display: flex;
     align-items: center;
     gap: 20px;
     color: white;
     font-weight: bold;
-}
-
-.logo img {
-    width: 180PX;
-    height: height;
-    object-fit: contain;
 }
 
 .menu a {
@@ -95,10 +95,6 @@ body {
 
 h1 {
     font-size: 72px;
-}
-
-.navbar {
-    padding: 25px 60px;
 }
 
 .content {
