@@ -114,3 +114,32 @@
     max-width: 600px;
     width: 100%;
 }
+.contact-buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.wa {
+    background-color: #25D366;
+}
+
+.email {
+    background-color: #0d6efd;
+}
+
+.ig {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+
