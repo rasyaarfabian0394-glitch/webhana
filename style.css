@@ -96,3 +96,21 @@
     max-width: 1400px;
     margin: auto;
 }
+
+.contact-section {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-box {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+}
