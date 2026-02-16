@@ -142,4 +142,11 @@
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
 }
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #b30000;
+    color: white;
+}
+
 
