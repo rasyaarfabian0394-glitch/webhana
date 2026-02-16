@@ -12,13 +12,15 @@
     align-items: center;
     padding: 15px 40px;
     background-color: #b30000;
+
 }
 
 .logo img {
-    width: 190PX;
-    height: height;
+    width: 180px;
+    height: auto;
     object-fit: contain;
 }
+
 
 .logo {
     display: flex;
