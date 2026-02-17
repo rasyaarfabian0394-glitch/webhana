@@ -82,6 +82,12 @@ html, body {
     background: linear-gradient(135deg, #f4f4f4, #e6e6e6);
 }
 
+.hero-logo {
+    width: 130px;
+    margin-bottom: 25px;
+    filter: drop-shadow(0 15px 25px rgba(0,0,0,0.4));
+}
+
 .hero h1 {
     font-size: clamp(24px, 5vw, 42px);
     margin-bottom: 15px;
