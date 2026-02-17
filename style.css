@@ -33,14 +33,32 @@
 }
 
 .menu a {
+    position: relative;
     color: white;
     text-decoration: none;
-    margin-left: 30px;
-    font-weight: bold;
+    margin-left: 35px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.3s ease;
+}
+
+.menu a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+
+.menu a:hover::after {
+    width: 100%;
 }
 
 .menu a:hover {
-    text-decoration: underline;
+    color: #ffe5e5;
 }
 
 .hero {
