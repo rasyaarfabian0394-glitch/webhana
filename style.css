@@ -9,8 +9,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
-    background-color: #b30000;
+    padding: 15px 60px;
+    background: linear-gradient(90deg, #b30000, #d40000);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .logo {
