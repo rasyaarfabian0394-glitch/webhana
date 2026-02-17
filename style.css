@@ -24,7 +24,7 @@ html, body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 3px;
     color: white;
     font-weight: 600;
 }
