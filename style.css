@@ -45,11 +45,24 @@ html, body {
     margin-left: 30px;
     font-weight: 600;
     transition: 0.3s ease;
+    position: relative;
 }
 
-.menu a:hover {
-    opacity: 0.8;
+.menu a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: white;
+    transition: 0.3s ease;
 }
+
+.menu a:hover::after {
+    width: 100%;
+}
+
 
 /* ================= HERO ================= */
 .hero {
