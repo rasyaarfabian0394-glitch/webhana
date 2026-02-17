@@ -32,6 +32,12 @@ html, body {
 .logo img {
     width: 150px;
     height: auto;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
+    transition: 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
 }
 
 .logo span {
