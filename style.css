@@ -6,48 +6,35 @@
     font-family: Arial, sans-serif;
 }
 
-html, body {
-    height: 100%;
-    padding-top: 110px;
+body {
+    background: #f5f6fa;
 }
 
-/* ================= NAVBAR DESKTOP ================= */
+/* ================= NAVBAR ================= */
 .navbar {
-    position: fixed;   /* dari absolute jadi fixed */
+    position: relative; /* GANTI dari absolute */
     width: 100%;
-    top: 0;
-    left: 0;
     padding: 20px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(135deg, #0d6efd, #084298);
-    z-index: 1000;
 }
-
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 10px;
     color: white;
     font-weight: 600;
 }
 
 .logo img {
-    width: 150px;
-    height: auto;
-    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
-    transition: 0.3s ease;
-}
-
-.logo img:hover {
-    transform: scale(1.05);
+    width: 60px;
 }
 
 .logo span {
-    font-size: 20px;
-    letter-spacing: 0.5px;
+    font-size: 18px;
 }
 
 .menu a {
@@ -55,33 +42,20 @@ html, body {
     text-decoration: none;
     margin-left: 30px;
     font-weight: 600;
-    transition: 0.3s ease;
-    position: relative;
+    transition: 0.3s;
 }
 
-.menu a::after {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: white;
-    transition: 0.3s ease;
+.menu a:hover {
+    opacity: 0.8;
 }
 
-.menu a:hover::after {
-    width: 100%;
-}
-
-
-/* ================= HERO ================= */
+/* ================= HERO (INDEX) ================= */
 .hero {
-    min-height: 90vh;
+    min-height: 85vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 80px 10% 80px;
+    padding: 80px 10%;
     background: linear-gradient(135deg, #0d6efd, #084298);
     color: white;
 }
@@ -90,70 +64,66 @@ html, body {
     max-width: 500px;
 }
 
-.hero-image img {
-    width: 400px;
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-}
-
 .hero h1 {
-    font-size: clamp(24px, 5vw, 42px);
+    font-size: 42px;
     margin-bottom: 15px;
 }
 
 .hero p {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     color: #e0e0e0;
+}
+
+.hero-image img {
+    width: 350px;
 }
 
 /* ================= BUTTON ================= */
 .btn {
-    background-color: #0d6efd;
-    color: white;
+    background-color: #ffffff;
+    color: #0d6efd;
     padding: 12px 25px;
     border-radius: 6px;
     text-decoration: none;
+    font-weight: bold;
     display: inline-block;
-    font-weight: 600;
-    transition: 0.3s ease;
+    transition: 0.3s;
 }
 
 .btn:hover {
-    background-color: #084298;
+    background-color: #e6e6e6;
 }
 
-/* ================= CONTENT ================= */
+/* ================= CONTENT (LAYANAN & TENTANG) ================= */
 .content {
-    padding: 60px 20px 120px 20px;
-    text-align: center;
-    max-width: 1200px;
-    margin: auto;
+    max-width: 1100px;
+    margin: 80px auto;
+    padding: 0 20px;
 }
 
-.content img {
-    margin-top: -80px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.content h1 {
+    margin-bottom: 15px;
 }
 
+/* ================= LAYANAN ================= */
 .cards {
-    margin-bottom: 120px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    margin-top: 40px;
-    align-items: center;
+    gap: 30px;
 }
 
 .card {
-    background: #f4f4f4;
-    padding: 25px;
-    width: 100%;
-    max-width: 700px;
+    background: white;
+    padding: 30px;
     border-radius: 10px;
-    text-align: left;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+/* ================= TENTANG ================= */
+.content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
 }
 
 /* ================= CONTACT ================= */
@@ -162,8 +132,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
 }
 
 .contact-box {
@@ -173,60 +142,33 @@ html, body {
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     max-width: 600px;
     width: 100%;
+    text-align: center;
 }
 
 .contact-buttons {
-    margin-top: 30px;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-/* Contact Buttons Variants */
-.wa {
-    background-color: #25D366;
-}
-
-.email {
-    background-color: #0d6efd;
-}
-
+.wa { background-color: #25D366; color: white; }
+.email { background-color: #0d6efd; color: white; }
 .ig {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
 }
 
 /* ================= FOOTER ================= */
-.footer {
+footer {
     text-align: center;
     padding: 20px;
     background: #b30000;
     color: white;
-    font-weight: 500;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
-/* ================= RESPONSIVE TABLET ================= */
-@media (max-width: 992px) {
-
-    .navbar {
-        padding: 15px 25px;
-    }
-
-    .logo img {
-        width: 130px;
-    }
-
-    .logo span {
-        font-size: 18px;
-    }
-
-    .menu a {
-        margin-left: 20px;
-        font-size: 14px;
-    }
-}
-
-/* ================= RESPONSIVE MOBILE ================= */
+/* ================= RESPONSIVE ================= */
 @media (max-width: 768px) {
 
     .hero {
@@ -235,46 +177,12 @@ html, body {
     }
 
     .hero-image img {
-        width: 300px;
         margin-top: 30px;
-    }
-    
-    .navbar {
-        padding: 12px 15px;
-    }
-
-    .logo {
-        gap: 5px;
-    }
-
-    .logo img {
-        width: 110px;
-    }
-
-    .logo span {
-        font-size: 16px;
+        width: 250px;
     }
 
     .menu a {
         margin-left: 15px;
-        font-size: 13px;
+        font-size: 14px;
     }
-
-    .content {
-        padding: 60px 20px;
-    }
-
-    .service-card {
-        background: white;
-        padding: 30px;
-        border-radius: 15px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        margin-bottom: 30px;
-        transition: 0.3s;
-   }
-
-   .service-card:hover {
-       transform: translateY(-10px);
-   }
-
 }
