@@ -74,18 +74,21 @@ html, body {
 .hero {
     min-height: 90vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 40px 20px;
-    background: linear-gradient(135deg, #f4f4f4, #e6e6e6);
+    justify-content: space-between;
+    padding: 80px 10%;
+    background: linear-gradient(135deg, #0d6efd, #084298);
+    color: white;
 }
 
-.hero-logo {
-    width: 130px;
-    margin-bottom: 25px;
-    filter: drop-shadow(0 6px 10px rgba(0,0,0,0.3));
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-image img {
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
 
 .hero h1 {
@@ -95,7 +98,7 @@ html, body {
 
 .hero p {
     margin-bottom: 30px;
-    color: #555;
+    color: #e0e0e0;
 }
 
 /* ================= BUTTON ================= */
