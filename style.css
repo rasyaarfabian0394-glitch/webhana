@@ -97,7 +97,7 @@ body {
 /* ================= CONTENT (LAYANAN & TENTANG) ================= */
 .content {
     max-width: 1100px;
-    margin: 80px;
+    margin: 80px 0;
     padding: 0 10%;
 }
 
@@ -189,7 +189,7 @@ footer {
 /* ================= LAYOUT LAYANAN ================= */
 
 .service-layout {
-    display: flex;
+    display: block;
     gap: 50px;
     margin-top: 40px;
     align-items: flex-start;
