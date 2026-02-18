@@ -20,7 +20,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.2);
     z-index: 1000;
 }
 
