@@ -51,7 +51,7 @@ body {
 
 /* ================= HERO (INDEX) ================= */
 .hero {
-    min-height: 85vh;
+    min-height: 100vh; /* FULL layar */
     display: flex;
     align-items: center;
     justify-content: space-between;
