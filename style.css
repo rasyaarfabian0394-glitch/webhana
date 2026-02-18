@@ -122,10 +122,11 @@ html, body {
 
 /* ================= CONTENT ================= */
 .content {
-    padding: 80px 40px;
+    padding: 60px 20px 120px 20px;
     text-align: center;
     max-width: 1200px;
     margin: auto;
+    padding-bottom: 150px;
 }
 
 .content img {
@@ -136,6 +137,7 @@ html, body {
 }
 
 .cards {
+    margin-bottom: 120px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -199,6 +201,7 @@ html, body {
     background: #b30000;
     color: white;
     font-weight: 500;
+    margin-top: 50px;
 }
 
 /* ================= RESPONSIVE TABLET ================= */
