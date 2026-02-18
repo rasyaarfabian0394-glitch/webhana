@@ -186,3 +186,26 @@ footer {
         font-size: 14px;
     }
 }
+
+/* ================= LAYOUT LAYANAN ================= */
+
+.service-layout {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+    align-items: flex-start;
+}
+
+.service-image img {
+    width: 350px;
+}
+
+.service-text {
+    flex: 1;
+}
+
+.card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
