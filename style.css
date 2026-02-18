@@ -152,7 +152,7 @@ body {
     gap: 15px;
 }
 
-.wa { background-color: #25D366; color: white; }
+.wa { background-color: #25D366; color: red; }
 .email { background-color: #0d6efd; color: white; }
 .ig {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
