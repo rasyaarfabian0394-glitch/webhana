@@ -8,11 +8,12 @@
 
 html, body {
     height: 100%;
+    padding-top: 110px;
 }
 
 /* ================= NAVBAR DESKTOP ================= */
 .navbar {
-    position: absolute;
+    position: fixed;   /* dari absolute jadi fixed */
     width: 100%;
     top: 0;
     left: 0;
@@ -20,9 +21,10 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #0d6efd, #084298);
     z-index: 1000;
 }
+
 
 .logo {
     display: flex;
@@ -79,7 +81,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 120px 10% 80px;
+    padding: 80px 10% 80px;
     background: linear-gradient(135deg, #0d6efd, #084298);
     color: white;
 }
