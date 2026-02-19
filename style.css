@@ -12,7 +12,6 @@ body {
 
 /* ================= NAVBAR ================= */
 .navbar {
-    position: relative; /* GANTI dari absolute */
     width: 100%;
     padding: 20px 10%;
     display: flex;
@@ -51,7 +50,7 @@ body {
 
 /* ================= HERO (INDEX) ================= */
 .hero {
-    min-height: 100vh; /* FULL layar */
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,15 +93,20 @@ body {
     background-color: #e6e6e6;
 }
 
-/* ================= CONTENT (LAYANAN & TENTANG) ================= */
+/* ================= CONTENT UMUM ================= */
 .content {
     max-width: 1100px;
-    margin: 80px 0;
+    margin: 80px auto;
     padding: 0 5%;
 }
 
 .content h1 {
     margin-bottom: 15px;
+}
+
+.content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
 }
 
 /* ================= LAYANAN ================= */
@@ -120,10 +124,34 @@ body {
     box-shadow: 0 5px 20px rgba(0,0,0,0.05);
 }
 
-/* ================= TENTANG ================= */
-.content p {
-    margin-bottom: 15px;
-    line-height: 1.6;
+.card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* ================= TENTANG (CENTER VERSION) ================= */
+/* Gunakan class ini di tentang.html */
+
+.about-section {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-section img {
+    width: 300px;
+    margin-top: 40px;
 }
 
 /* ================= CONTACT ================= */
@@ -185,18 +213,3 @@ footer {
         font-size: 14px;
     }
 }
-
-/* ================= LAYOUT LAYANAN ================= */
-
-.service-layout {
-    display: block;
-    gap: 50px;
-    margin-top: 40px;
-    align-items: flex-start;
-}
-
-.card ul {
-    margin-top: 10px;
-    padding-left: 20px;
-}
-
