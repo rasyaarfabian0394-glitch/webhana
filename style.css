@@ -158,9 +158,9 @@ body {
 .contact-section {
     min-height: 80vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    padding: 60px 20px;
+    padding: 60px 80px;
 }
 
 .contact-box {
