@@ -129,8 +129,7 @@ body {
     padding-left: 20px;
 }
 
-/* ================= TENTANG (CENTER VERSION) ================= */
-/* Gunakan class ini di tentang.html */
+/* ================= TENTANG ================= */
 
 .about-section {
     max-width: 900px;
@@ -155,24 +154,43 @@ body {
 }
 
 /* ================= CONTACT ================= */
+
 .contact-section {
     min-height: 80vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    padding: 60px 80px;
+    padding: 60px 10%;
 }
 
+/* Layout kiri kanan */
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+/* Box kontak kiri */
 .contact-box {
     background: white;
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-    max-width: 600px;
-    width: 100%;
-    text-align: center;
+    flex: 1;
 }
 
+.contact-box h1 {
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    margin-bottom: 20px;
+}
+
+/* Tombol */
 .contact-buttons {
     margin-top: 25px;
     display: flex;
@@ -180,33 +198,36 @@ body {
     gap: 15px;
 }
 
-.wa { background-color: #25D366; color: white; }
-.email { background-color: #0d6efd; color: white; }
-.ig {
-    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+/* Warna tombol */
+
+.wa {
+    background-color: #25D366;
     color: white;
 }
 
-/* ===== LOGO CONTACT ===== */
-
-.contact-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
+.email {
+    background-color: #0d6efd;
+    color: white;
 }
 
-.logo {
+.ig {
+    background: linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+    color: white;
+}
+
+/* Logo kanan */
+
+.contact-logo {
     flex: 1;
     text-align: center;
 }
 
-.logo img {
-    width: 200px;
-    height: auto;
+.contact-logo img {
+    width: 320px;
 }
+
 /* ================= FOOTER ================= */
+
 footer {
     text-align: center;
     padding: 20px;
@@ -215,20 +236,33 @@ footer {
 }
 
 /* ================= RESPONSIVE ================= */
+
 @media (max-width: 768px) {
 
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
+.hero {
+    flex-direction: column;
+    text-align: center;
+}
 
-    .hero-image img {
-        margin-top: 30px;
-        width: 250px;
-    }
+.hero-image img {
+    margin-top: 30px;
+    width: 250px;
+}
 
-    .menu a {
-        margin-left: 15px;
-        font-size: 14px;
-    }
+.menu a {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+/* Contact jadi turun ke bawah di HP */
+
+.contact-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-logo img {
+    width: 220px;
+}
+
 }
