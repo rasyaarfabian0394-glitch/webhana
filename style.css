@@ -264,5 +264,34 @@ footer {
 .contact-logo img {
     width: 220px;
 }
+    /* ===== SAMAKAN TINGGI LOGO DAN KONTAK ===== */
+
+.contact-container{
+    display:flex;
+    align-items:stretch;
+    gap:50px;
+}
+
+/* Kotak kiri */
+.contact-box{
+    flex:1;
+}
+
+/* Kotak kanan logo */
+.contact-logo{
+    flex:1;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Gambar logo */
+.contact-logo img{
+    width:300px;
+}
 
 }
