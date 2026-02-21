@@ -1,128 +1,71 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Kontak - PT Hana Store One</title>
-
-<link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-
-<!-- NAVBAR -->
-<nav class="navbar">
-
-<div class="logo">
-<img src="Store.com.png">
-<span>PT Hana Store One</span>
-</div>
-
-<div class="menu">
-<a href="index.html">Home</a>
-<a href="layanan.html">Layanan</a>
-<a href="tentang.html">Tentang</a>
-<a href="kontak.html">Kontak</a>
-</div>
-
-</nav>
-
-
-
-<!-- CONTACT -->
-<section class="contact-section">
-
-<div class="contact-container">
-
-
-<!-- KIRI -->
-<div class="contact-box">
-
-<h1>Hubungi Kami</h1>
-
-<p>Customer Care & Support PT Hana Store One</p>
-
-
-<div class="contact-buttons">
-
-
-<div>
-
-<h3>WhatsApp</h3>
-
-<p>Respon cepat untuk konsultasi dan layanan.</p>
-
-<a href="https://wa.me/6282221653103" target="_blank" class="btn wa">
-
-Chat Sekarang
-
-</a>
-
-</div>
-
-
-
-<div>
-
-<h3>Email</h3>
-
-<p>Kirim pertanyaan atau penawaran kerja sama.</p>
-
-<a href="mailto:admin@cacing.my.id" class="btn email">
-
-Kirim Email
-
-</a>
-
-</div>
-
-
-
-<div>
-
-<h3>Instagram</h3>
-
-<p>Lihat update dan informasi terbaru kami.</p>
-
-<a href="https://instagram.com/panther.1988317" target="_blank" class="btn ig">
-
-Kunjungi Instagram
-
-</a>
-
-</div>
-
-
-</div>
-
-</div>
-
-
-
-<!-- KANAN -->
-<div class="contact-logo">
-
-<img src="loPT.png">
-
-</div>
-
-
-
-</div>
-
-</section>
-
-
-
-<footer>
-
-© 2026 PT Hana Store One. All Rights Reserved.
-
-</footer>
-
-
-
-</body>
-</html>
+/* ===== CONTACT FINAL PROFESSIONAL ===== */
+
+/* Posisi tengah halaman */
+.contact-section{
+    min-height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:60px 10%;
+}
+
+/* Layout kiri kanan */
+.contact-container{
+    display:flex;
+    gap:60px;
+    width:100%;
+    max-width:1100px;
+    align-items:stretch; /* SAMAKAN TINGGI */
+}
+
+
+/* BOX KIRI */
+.contact-box{
+    flex:1;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+
+/* Jarak tombol */
+.contact-buttons{
+    margin-top:25px;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+
+/* BOX KANAN (LOGO) */
+.contact-logo{
+    flex:1;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+/* Gambar logo */
+.contact-logo img{
+    width:320px;
+}
+
+
+/* RESPONSIVE HP */
+@media(max-width:768px){
+
+.contact-container{
+    flex-direction:column;
+}
+
+.contact-logo{
+    padding:40px 0;
+}
+
+}
