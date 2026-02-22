@@ -173,94 +173,97 @@ margin-top:40px;
 
 
 
-/* ================= CONTACT FINAL ================= */
+/* ===== CONTACT FINAL PROFESSIONAL ===== */
 
+/* Posisi tengah halaman */
 .contact-section{
-min-height:80vh;
-display:flex;
-justify-content:center;
-align-items:center;
-padding:60px 10%;
+    min-height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:60px 10%;
 }
 
 
 /* Layout kiri kanan */
-
 .contact-container{
-display:flex;
-gap:60px;
-width:100%;
-max-width:1100px;
-align-items:stretch;
+    display:flex;
+    gap:60px;
+    width:100%;
+    max-width:1100px;
+    margin:auto;
+    align-items:stretch; /* Tinggi sama */
 }
 
 
-/* Box kiri */
+/* ===== BOX KIRI ===== */
 
 .contact-box{
-flex:1;
-background:white;
-padding:40px;
-border-radius:15px;
-box-shadow:0 10px 30px rgba(0,0,0,0.1);
+    flex:1;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
 }
 
 .contact-box h1{
-margin-bottom:10px;
+    margin-bottom:10px;
 }
 
 .contact-box p{
-margin-bottom:20px;
+    margin-bottom:20px;
 }
 
 
-/* Tombol */
+/* Jarak tombol */
 
 .contact-buttons{
-margin-top:25px;
-display:flex;
-flex-direction:column;
-gap:25px;
+    margin-top:25px;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
 }
 
 
-/* Warna tombol */
-
-.wa{
-background:#25D366;
-color:white;
-}
-
-.email{
-background:#0d6efd;
-color:white;
-}
-
-.ig{
-background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
-color:white;
-}
-
-
-
-/* Box kanan logo */
+/* ===== BOX KANAN (LOGO) ===== */
 
 .contact-logo{
-flex:1;
-background:white;
-border-radius:15px;
-box-shadow:0 10px 30px rgba(0,0,0,0.1);
+    flex:1;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
 
-display:flex;
-justify-content:center;
-align-items:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 
-/* Gambar logo */
+/* Logo */
 
 .contact-logo img{
-width:320px;
+    width:320px;
+    max-width:100%;
+}
+
+
+
+/* ===== RESPONSIVE HP ===== */
+
+@media(max-width:768px){
+
+.contact-container{
+    flex-direction:column;
+}
+
+.contact-logo{
+    padding:40px 20px;
+}
+
+.contact-logo img{
+    width:220px;
+}
+
 }
 
 
