@@ -1,297 +1,313 @@
 /* ================= RESET ================= */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
-body {
-    background: #f5f6fa;
+body{
+background:#f5f6fa;
 }
+
+
 
 /* ================= NAVBAR ================= */
-.navbar {
-    width: 100%;
-    padding: 20px 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(135deg, #0d6efd, #084298);
+
+.navbar{
+width:100%;
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:linear-gradient(135deg,#0d6efd,#084298);
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: white;
-    font-weight: 600;
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+color:white;
+font-weight:600;
 }
 
-.logo img {
-    width: 60px;
+.logo img{
+width:60px;
 }
 
-.logo span {
-    font-size: 18px;
+.logo span{
+font-size:18px;
 }
 
-.menu a {
-    color: white;
-    text-decoration: none;
-    margin-left: 30px;
-    font-weight: 600;
-    transition: 0.3s;
+.menu a{
+color:white;
+text-decoration:none;
+margin-left:30px;
+font-weight:600;
+transition:0.3s;
 }
 
-.menu a:hover {
-    opacity: 0.8;
+.menu a:hover{
+opacity:0.8;
 }
 
-/* ================= HERO (INDEX) ================= */
-.hero {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10%;
-    background: linear-gradient(135deg, #0d6efd, #084298);
-    color: white;
+
+
+/* ================= HERO ================= */
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 10%;
+background:linear-gradient(135deg,#0d6efd,#084298);
+color:white;
 }
 
-.hero-text {
-    max-width: 500px;
+.hero-text{
+max-width:500px;
 }
 
-.hero h1 {
-    font-size: 42px;
-    margin-bottom: 15px;
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
 }
 
-.hero p {
-    margin-bottom: 25px;
-    color: #e0e0e0;
+.hero p{
+margin-bottom:25px;
+color:#e0e0e0;
 }
 
-.hero-image img {
-    width: 350px;
+.hero-image img{
+width:350px;
 }
+
+
 
 /* ================= BUTTON ================= */
-.btn {
-    background-color: #ffffff;
-    color: #0d6efd;
-    padding: 12px 25px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    transition: 0.3s;
+
+.btn{
+background:#ffffff;
+color:#0d6efd;
+padding:12px 25px;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+transition:0.3s;
 }
 
-.btn:hover {
-    background-color: #e6e6e6;
+.btn:hover{
+background:#e6e6e6;
 }
 
-/* ================= CONTENT UMUM ================= */
-.content {
-    max-width: 1100px;
-    margin: 80px auto;
-    padding: 0 5%;
+
+
+/* ================= CONTENT ================= */
+
+.content{
+max-width:1100px;
+margin:80px auto;
+padding:0 5%;
 }
 
-.content h1 {
-    margin-bottom: 15px;
+.content h1{
+margin-bottom:15px;
 }
 
-.content p {
-    margin-bottom: 15px;
-    line-height: 1.6;
+.content p{
+margin-bottom:15px;
+line-height:1.6;
 }
+
+
 
 /* ================= LAYANAN ================= */
-.cards {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+
+.cards{
+margin-top:40px;
+display:flex;
+flex-direction:column;
+gap:30px;
 }
 
-.card {
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
 }
 
-.card ul {
-    margin-top: 10px;
-    padding-left: 20px;
+.card ul{
+margin-top:10px;
+padding-left:20px;
 }
+
+
 
 /* ================= TENTANG ================= */
 
-.about-section {
-    max-width: 900px;
-    margin: 80px auto;
-    padding: 0 20px;
-    text-align: center;
+.about-section{
+max-width:900px;
+margin:80px auto;
+padding:0 20px;
+text-align:center;
 }
 
-.about-section h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+.about-section h1{
+font-size:36px;
+margin-bottom:20px;
 }
 
-.about-section p {
-    line-height: 1.8;
-    margin-bottom: 20px;
+.about-section p{
+line-height:1.8;
+margin-bottom:20px;
 }
 
-.about-section img {
-    width: 300px;
-    margin-top: 40px;
+.about-section img{
+width:300px;
+margin-top:40px;
 }
 
-/* ================= CONTACT ================= */
 
-.contact-section {
-    min-height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 60px 10%;
+
+/* ================= CONTACT FINAL ================= */
+
+.contact-section{
+min-height:80vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:60px 10%;
 }
+
 
 /* Layout kiri kanan */
-.contact-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 80px;
-    width: 100%;
-    max-width: 1100px;
+
+.contact-container{
+display:flex;
+gap:60px;
+width:100%;
+max-width:1100px;
+align-items:stretch;
 }
 
-/* Box kontak kiri */
-.contact-box {
-    background: white;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-    flex: 1;
+
+/* Box kiri */
+
+.contact-box{
+flex:1;
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
 }
 
-.contact-box h1 {
-    margin-bottom: 10px;
+.contact-box h1{
+margin-bottom:10px;
 }
 
-.contact-box p {
-    margin-bottom: 20px;
+.contact-box p{
+margin-bottom:20px;
 }
+
 
 /* Tombol */
-.contact-buttons {
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+
+.contact-buttons{
+margin-top:25px;
+display:flex;
+flex-direction:column;
+gap:25px;
 }
+
 
 /* Warna tombol */
 
-.wa {
-    background-color: #25D366;
-    color: white;
+.wa{
+background:#25D366;
+color:white;
 }
 
-.email {
-    background-color: #0d6efd;
-    color: white;
+.email{
+background:#0d6efd;
+color:white;
 }
 
-.ig {
-    background: linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
-    color: white;
+.ig{
+background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+color:white;
 }
 
-/* Logo kanan */
 
-.contact-logo {
-    flex: 1;
-    text-align: center;
+
+/* Box kanan logo */
+
+.contact-logo{
+flex:1;
+background:white;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+
+display:flex;
+justify-content:center;
+align-items:center;
 }
 
-.contact-logo img {
-    width: 320px;
+
+/* Gambar logo */
+
+.contact-logo img{
+width:320px;
 }
+
+
 
 /* ================= FOOTER ================= */
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #b30000;
-    color: white;
+footer{
+text-align:center;
+padding:20px;
+background:#b30000;
+color:white;
 }
+
+
 
 /* ================= RESPONSIVE ================= */
 
-@media (max-width: 768px) {
+@media(max-width:768px){
 
-.hero {
-    flex-direction: column;
-    text-align: center;
+.hero{
+flex-direction:column;
+text-align:center;
 }
 
-.hero-image img {
-    margin-top: 30px;
-    width: 250px;
+.hero-image img{
+margin-top:30px;
+width:250px;
 }
 
-.menu a {
-    margin-left: 15px;
-    font-size: 14px;
+.menu a{
+margin-left:15px;
+font-size:14px;
 }
 
-/* Contact jadi turun ke bawah di HP */
 
-.contact-container {
-    flex-direction: column;
-    text-align: center;
-}
-
-.contact-logo img {
-    width: 220px;
-}
-    /* ===== SAMAKAN TINGGI LOGO DAN KONTAK ===== */
+/* Contact turun ke bawah */
 
 .contact-container{
-    display:flex;
-    align-items:stretch;
-    gap:50px;
+flex-direction:column;
 }
 
-/* Kotak kiri */
-.contact-box{
-    flex:1;
-}
-
-/* Kotak kanan logo */
 .contact-logo{
-    flex:1;
-    background:white;
-    border-radius:12px;
-    box-shadow:0 5px 20px rgba(0,0,0,0.1);
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
+padding:40px 0;
 }
 
-/* Gambar logo */
 .contact-logo img{
-    width:300px;
+width:220px;
 }
 
 }
