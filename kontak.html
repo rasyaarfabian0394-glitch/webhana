@@ -1,92 +1,40 @@
-/* ===== CONTACT FINAL PROFESSIONAL ===== */
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-/* Posisi tengah halaman */
-.contact-section{
-    min-height:80vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding:60px 10%;
-}
+<nav class="navbar">
+    <div class="logo">
+        <img src="Store.com.png" alt="Logo">
+        <span class="company-name">PT Hana Store One</span>
+    </div>
 
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="layanan.html">Layanan</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="kontak.html">Kontak</a>
+    </div>
+</nav>
 
-/* Layout kiri kanan */
-.contact-container{
-    display:flex;
-    gap:60px;
-    width:100%;
-    max-width:1100px;
-    margin:auto;
-    align-items:stretch; /* Tinggi sama */
-}
+<section class="contact-section">
+    <div class="contact-box">
+        <h2>Hubungi Kami</h2>
+        <p>Customer Care / Customer Support</p>
 
+        <div class="contact-buttons">
+            <a href="https://wa.me/6282221653103" target="_blank" class="btn wa">Chat WhatsApp</a>
+            <a href="mailto:admin@cacing.my.id" class="btn email">Kirim Email</a>
+            <a href="https://instagram.com/panther.1988317" target="_blank" class="btn ig">Instagram</a>
+        </div>
+    </div>
+</section>
 
-/* ===== BOX KIRI ===== */
+</body>
+</html>
 
-.contact-box{
-    flex:1;
-    background:white;
-    padding:40px;
-    border-radius:15px;
-    box-shadow:0 10px 30px rgba(0,0,0,0.1);
-}
-
-.contact-box h1{
-    margin-bottom:10px;
-}
-
-.contact-box p{
-    margin-bottom:20px;
-}
-
-
-/* Jarak tombol */
-
-.contact-buttons{
-    margin-top:25px;
-    display:flex;
-    flex-direction:column;
-    gap:25px;
-}
-
-
-/* ===== BOX KANAN (LOGO) ===== */
-
-.contact-logo{
-    flex:1;
-    background:white;
-    border-radius:15px;
-    box-shadow:0 10px 30px rgba(0,0,0,0.1);
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-
-/* Logo */
-
-.contact-logo img{
-    width:320px;
-    max-width:100%;
-}
-
-
-
-/* ===== RESPONSIVE HP ===== */
-
-@media(max-width:768px){
-
-.contact-container{
-    flex-direction:column;
-}
-
-.contact-logo{
-    padding:40px 20px;
-}
-
-.contact-logo img{
-    width:220px;
-}
-
-}
+kontak.html
