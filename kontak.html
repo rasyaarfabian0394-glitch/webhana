@@ -9,17 +9,20 @@
     padding:60px 10%;
 }
 
+
 /* Layout kiri kanan */
 .contact-container{
     display:flex;
     gap:60px;
     width:100%;
     max-width:1100px;
-    align-items:stretch; /* SAMAKAN TINGGI */
+    margin:auto;
+    align-items:stretch; /* Tinggi sama */
 }
 
 
-/* BOX KIRI */
+/* ===== BOX KIRI ===== */
+
 .contact-box{
     flex:1;
     background:white;
@@ -28,8 +31,17 @@
     box-shadow:0 10px 30px rgba(0,0,0,0.1);
 }
 
+.contact-box h1{
+    margin-bottom:10px;
+}
+
+.contact-box p{
+    margin-bottom:20px;
+}
+
 
 /* Jarak tombol */
+
 .contact-buttons{
     margin-top:25px;
     display:flex;
@@ -38,7 +50,8 @@
 }
 
 
-/* BOX KANAN (LOGO) */
+/* ===== BOX KANAN (LOGO) ===== */
+
 .contact-logo{
     flex:1;
     background:white;
@@ -51,13 +64,17 @@
 }
 
 
-/* Gambar logo */
+/* Logo */
+
 .contact-logo img{
     width:320px;
+    max-width:100%;
 }
 
 
-/* RESPONSIVE HP */
+
+/* ===== RESPONSIVE HP ===== */
+
 @media(max-width:768px){
 
 .contact-container{
@@ -65,7 +82,11 @@
 }
 
 .contact-logo{
-    padding:40px 0;
+    padding:40px 20px;
+}
+
+.contact-logo img{
+    width:220px;
 }
 
 }
