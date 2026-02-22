@@ -208,24 +208,6 @@ background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
 color:black;
 }
 
-.google{
-background:#25D366;
-color:black;
-}
-
-/* Logo kanan */
-
-.contact-logo{
-flex:1;
-text-align:center;
-}
-
-.contact-logo img{
-width:300px;
-}
-
-
-
 /* ================= FOOTER ================= */
 
 footer{
