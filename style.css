@@ -1,5 +1,6 @@
 /* ================= RESET ================= */
-* {
+
+*{
 margin:0;
 padding:0;
 box-sizing:border-box;
@@ -31,7 +32,7 @@ font-weight:600;
 }
 
 .logo img{
-width:60px;
+width:50px;
 }
 
 .menu a{
@@ -40,6 +41,120 @@ text-decoration:none;
 margin-left:30px;
 font-weight:600;
 }
+
+
+
+/* ================= HERO ================= */
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 10%;
+background:linear-gradient(135deg,#0d6efd,#084298);
+color:white;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero p{
+margin-bottom:25px;
+color:#e0e0e0;
+}
+
+.hero-image img{
+width:350px;
+}
+
+
+
+/* ================= BUTTON ================= */
+
+.btn{
+background:white;
+color:#0d6efd;
+padding:12px 25px;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+}
+
+.btn:hover{
+background:#e6e6e6;
+}
+
+
+
+/* ================= CONTENT ================= */
+
+.content{
+max-width:1100px;
+margin:80px auto;
+padding:0 5%;
+}
+
+.content h1{
+margin-bottom:15px;
+}
+
+.content p{
+margin-bottom:15px;
+line-height:1.6;
+}
+
+
+
+/* ================= LAYANAN ================= */
+
+.cards{
+margin-top:40px;
+display:flex;
+flex-direction:column;
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+
+
+/* ================= TENTANG ================= */
+
+.about-section{
+max-width:900px;
+margin:80px auto;
+padding:0 20px;
+text-align:center;
+}
+
+.about-section h1{
+font-size:36px;
+margin-bottom:20px;
+}
+
+.about-section p{
+line-height:1.8;
+margin-bottom:20px;
+}
+
+.about-section img{
+width:300px;
+margin-top:40px;
+}
+
 
 
 /* ================= CONTACT ================= */
@@ -60,9 +175,6 @@ width:100%;
 align-items:center;
 }
 
-
-/* BOX KIRI */
-
 .contact-box{
 background:white;
 padding:40px;
@@ -79,15 +191,7 @@ gap:20px;
 }
 
 
-/* TOMBOL */
-
-.btn{
-padding:12px 20px;
-border-radius:6px;
-text-decoration:none;
-font-weight:bold;
-display:inline-block;
-}
+/* Tombol warna */
 
 .wa{
 background:#25D366;
@@ -105,7 +209,7 @@ color:white;
 }
 
 
-/* LOGO KANAN */
+/* Logo kanan */
 
 .contact-logo{
 flex:1;
@@ -117,7 +221,8 @@ width:300px;
 }
 
 
-/* FOOTER */
+
+/* ================= FOOTER ================= */
 
 footer{
 text-align:center;
@@ -127,9 +232,25 @@ color:white;
 }
 
 
-/* RESPONSIVE HP */
+
+/* ================= RESPONSIVE ================= */
 
 @media(max-width:768px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-image img{
+margin-top:30px;
+width:250px;
+}
+
+.menu a{
+margin-left:15px;
+font-size:14px;
+}
 
 .contact-container{
 flex-direction:column;
