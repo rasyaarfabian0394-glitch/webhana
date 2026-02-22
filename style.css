@@ -200,14 +200,18 @@ color:black;
 
 .email{
 background:#0d6efd;
-color:white;
+color:black;
 }
 
 .ig{
 background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
-color:white;
+color:black;
 }
 
+.google{
+background:#25D366;
+color:black;
+}
 
 /* Logo kanan */
 
