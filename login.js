@@ -5,7 +5,7 @@ let pass = document.getElementById("password").value;
 
 if(user == "admin" && pass == "12345"){
 
-window.location = "index.html";
+window.location = "home.html";
 
 }else{
 
