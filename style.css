@@ -7,16 +7,18 @@ box-sizing:border-box;
 font-family: Arial, sans-serif;
 }
 
-/* ================= BODY NORMAL WEBSITE ================= */
-
+/* BODY NORMAL WEBSITE */
 body{
 background:#f5f6fa;
 }
 
-/* ================= LOGIN PAGE ================= */
-
+/* BODY KHUSUS LOGIN */
 body.login-page{
-background: linear-gradient(135deg,#0d6efd,#084298);
+background-image:url("background.gif");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
 display:flex;
 justify-content:center;
 align-items:center;
