@@ -16,11 +16,7 @@ background:#f5f6fa;
 /* ================= LOGIN PAGE ================= */
 
 body.login-page{
-background-image:url("background.gif");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-
+background: linear-gradient(135deg,#0d6efd,#084298);
 display:flex;
 justify-content:center;
 align-items:center;
