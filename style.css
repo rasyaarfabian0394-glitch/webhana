@@ -1,17 +1,15 @@
 /* ================= BACKGROUND LOGIN HD ================= */
 
-body{
+body.login-page{
 margin:0;
 padding:0;
 font-family: Arial, sans-serif;
 
-/* Background GIF */
 background-image: url("background.gif");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 
-/* Tengah layar */
 display:flex;
 justify-content:center;
 align-items:center;
