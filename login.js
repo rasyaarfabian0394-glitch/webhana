@@ -4,15 +4,10 @@ let user = document.getElementById("username").value;
 let pass = document.getElementById("password").value;
 
 if(user == "HanaStoreOne" && pass == "Hana2203"){
-window.location = "home.html";
 
-}
-  
-else if(user == "Rasya01" && pass == "Hana2203"){
-window.location = "home.html";
-}
-  
-else{
+window.location.href = "./home.html";
+
+}else{
 
 document.getElementById("pesan").innerHTML = "Username atau Password salah";
 
