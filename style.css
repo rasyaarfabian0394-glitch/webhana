@@ -9,12 +9,12 @@ font-family: Arial, sans-serif;
 
 /* BODY NORMAL WEBSITE */
 body{
-background:#f5f6fa;
+background: red;
 }
 
 /* BODY KHUSUS LOGIN */
 body.login-page{
-background-image: url("bg-login.png");
+background-image: url("background.png");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
