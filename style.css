@@ -14,7 +14,7 @@ background:#f5f6fa;
 
 /* BODY KHUSUS LOGIN */
 body.login-page{
-background-image:url("background.gif");
+background-image: url("bg-login.png");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
