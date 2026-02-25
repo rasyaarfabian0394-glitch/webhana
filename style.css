@@ -7,67 +7,115 @@ box-sizing:border-box;
 font-family:Arial,sans-serif;
 }
 
-/* ================= BODY NORMAL WEBSITE ================= */
+/* ================= BACKGROUND LOGIN HD ================= */
 
 body{
-background:#f5f6fa;
-}
+margin:0;
+padding:0;
+font-family: Arial, sans-serif;
 
-/* ================= LOGIN PAGE ================= */
+/* Background GIF */
+background-image: url("background.gif");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 
-.login-box{
-background:white;
-padding:40px;
-border-radius:10px;
-width:300px;
-text-align:center;
-box-shadow:0px 0px 15px rgba(0,0,0,0.2);
-}
-
-/* Background khusus login */
-body.login-page{
-background:url("background.gif");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-
+/* Tengah layar */
 display:flex;
 justify-content:center;
 align-items:center;
 height:100vh;
 }
 
-.login-box h2{
-margin-bottom:20px;
-}
+/* ================= BOX LOGIN ================= */
 
-input{
-width:100%;
-padding:10px;
-margin:10px 0;
-border-radius:5px;
-border:1px solid #ccc;
-}
+.login-box{
 
-button{
-width:100%;
-padding:10px;
-background:#007bff;
+width:350px;
+padding:40px;
+
+background: rgba(0,0,0,0.55);
+
+border-radius:15px;
+
+backdrop-filter: blur(8px);
+
+box-shadow:0px 0px 30px rgba(0,0,0,0.6);
+
+text-align:center;
+
 color:white;
-border:none;
-border-radius:5px;
-cursor:pointer;
+
 }
 
-button:hover{
-background:#0056b3;
+/* Judul */
+
+.login-box h2{
+
+margin-bottom:25px;
+font-size:28px;
+
 }
+
+/* Input */
+
+.login-box input{
+
+width:100%;
+
+padding:12px;
+
+margin:10px 0;
+
+border-radius:8px;
+
+border:none;
+
+font-size:16px;
+
+}
+
+/* Tombol */
+
+.login-box button{
+
+width:100%;
+
+padding:12px;
+
+margin-top:10px;
+
+border:none;
+
+border-radius:8px;
+
+background:#00aaff;
+
+color:white;
+
+font-size:16px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+.login-box button:hover{
+
+background:#0088cc;
+
+}
+
+/* Pesan error */
 
 #pesan{
-color:red;
-margin-top:10px;
-}
 
+margin-top:10px;
+
+color:red;
+
+}
 
 /* ================= NAVBAR ================= */
 
