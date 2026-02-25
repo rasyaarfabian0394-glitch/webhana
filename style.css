@@ -7,8 +7,65 @@ box-sizing:border-box;
 font-family:Arial,sans-serif;
 }
 
+/* ================= BODY NORMAL WEBSITE ================= */
+
 body{
 background:#f5f6fa;
+}
+
+/* ================= LOGIN PAGE ================= */
+
+.login-box{
+background:white;
+padding:40px;
+border-radius:10px;
+width:300px;
+text-align:center;
+box-shadow:0px 0px 15px rgba(0,0,0,0.2);
+}
+
+/* Background khusus login */
+body.login-page{
+background:url("background.gif");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.login-box h2{
+margin-bottom:20px;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#007bff;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+#pesan{
+color:red;
+margin-top:10px;
 }
 
 
@@ -43,7 +100,6 @@ font-weight:600;
 }
 
 
-
 /* ================= HERO ================= */
 
 .hero{
@@ -75,7 +131,6 @@ width:350px;
 }
 
 
-
 /* ================= BUTTON ================= */
 
 .btn{
@@ -91,7 +146,6 @@ display:inline-block;
 .btn:hover{
 background:#e6e6e6;
 }
-
 
 
 /* ================= CONTENT ================= */
@@ -112,7 +166,6 @@ line-height:1.6;
 }
 
 
-
 /* ================= LAYANAN ================= */
 
 .cards{
@@ -128,7 +181,6 @@ padding:30px;
 border-radius:10px;
 box-shadow:0 5px 20px rgba(0,0,0,0.05);
 }
-
 
 
 /* ================= TENTANG ================= */
@@ -154,7 +206,6 @@ margin-bottom:20px;
 width:300px;
 margin-top:40px;
 }
-
 
 
 /* ================= CONTACT ================= */
@@ -190,9 +241,6 @@ flex-direction:column;
 gap:20px;
 }
 
-
-/* Tombol warna */
-
 .wa{
 background:#25D366;
 color:black;
@@ -208,6 +256,7 @@ background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
 color:black;
 }
 
+
 /* ================= FOOTER ================= */
 
 footer{
@@ -216,7 +265,6 @@ padding:20px;
 background:#b30000;
 color:white;
 }
-
 
 
 /* ================= RESPONSIVE ================= */
@@ -241,62 +289,6 @@ font-size:14px;
 .contact-container{
 flex-direction:column;
 text-align:center;
-}
-
-.contact-logo img{
-width:220px;
-}
-
-body{
-background: url("background.gif");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-font-family: Arial;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-}
-
-.login-box{
-background:white;
-padding:40px;
-border-radius:10px;
-width:300px;
-text-align:center;
-box-shadow:0px 0px 10px rgba(0,0,0,0.1);
-}
-
-.login-box h2{
-margin-bottom:20px;
-}
-
-input{
-width:100%;
-padding:10px;
-margin:10px 0;
-border-radius:5px;
-border:1px solid #ccc;
-}
-
-button{
-width:100%;
-padding:10px;
-background:#007bff;
-color:white;
-border:none;
-border-radius:5px;
-cursor:pointer;
-}
-
-button:hover{
-background:#0056b3;
-}
-
-#pesan{
-color:red;
-margin-top:10px;
 }
 
 }
