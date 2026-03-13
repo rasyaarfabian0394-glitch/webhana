@@ -20,3 +20,7 @@ file_put_contents("log.txt", $input.PHP_EOL, FILE_APPEND);
 echo "EVENT_RECEIVED";
 
 ?>
+
+<?php
+echo "EVENT_RECEIVED";
+?>
