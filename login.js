@@ -3,7 +3,7 @@ function login(){
 let user = document.getElementById("username").value;
 let pass = document.getElementById("password").value;
 
-if(user == "HanaStoreOne" && pass == "Hana2203"){
+if(user == "HanaStoreOne" && pass == "Hana2203.,"){
 
 window.location.href = "./home.html";
 
